@@ -52,13 +52,13 @@
   display: block;
   content: "";
 
-  left: -34px;
+  width: 24px;
+  height: 24px;
 
-  background: url(/Icons/instagram.svg) no-repeat center center;
-  background-size: 18px 18px;
+  left: -37px;
 
-  width: 18px;
-  height: 18px;
+  background: url(/Icons/instagram.svg);
+  background-size: 24px;
 }
 
 .email::before {
@@ -100,7 +100,7 @@
   left: -37px;
   top: -4px;
 
-  background: url(/Icons/icons8-github.svg) no-repeat center center;
+  background: url(/Icons/icons8-github.svg);
   background-size: 24px;
 }
 
