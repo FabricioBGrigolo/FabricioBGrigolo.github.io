@@ -27,8 +27,6 @@
   position: relative;
 }
 
-
-
 .footer-container::before {
   content: "";
 
@@ -56,14 +54,12 @@
 
   left: -34px;
 
-  background: url(/first-web-site/Icons/instagram.svg) no-repeat center center;
+  background: url(/Icons/instagram.sv) no-repeat center center;
   background-size: 18px 18px;
-  
+
   width: 18px;
   height: 18px;
-
 }
-
 
 .email::before {
   position: absolute;
@@ -75,10 +71,9 @@
 
   left: -35px;
 
-  background: url(/first-web-site/Icons/email.svg);
+  background: url(/Icons/email.svg);
   background-size: 20px;
 }
-
 
 .linkedin::before {
   position: absolute;
@@ -90,7 +85,7 @@
 
   left: -34px;
 
-  background: url(/first-web-site/Icons/linkedin.svg);
+  background: url(/Icons/linkedin.svg);
   background-size: 18px;
 }
 
@@ -105,17 +100,15 @@
   left: -37px;
   top: -4px;
 
-  background: url(/first-web-site/Icons/icons8-github.svg) no-repeat center center;
+  background: url(/Icons/icons8-github.svg) no-repeat center center;
   background-size: 24px;
 }
 
 @media (max-width: 980px) {
-
   .criado {
     margin-top: 20px;
   }
 
-  
   .footer-container::before {
     width: 43px;
     height: 20px;
@@ -124,12 +117,8 @@
     left: 242px;
   }
 
-  
-
   .footer-container {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 }
-
-
