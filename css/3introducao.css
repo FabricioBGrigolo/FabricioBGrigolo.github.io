@@ -15,14 +15,14 @@ body {
     max-width: 1000px;
     
   
-    margin: 124px auto;
-    height: 420px;
+    margin: 7.75rem auto;
+    height: 26.25rem;
   
   
     display: grid;
     place-content: center;
     grid-template-columns: 1fr auto;
-    grid-template-rows: 200px 50px 75px auto;
+    grid-template-rows: 12.5rem 3.125rem 4.688rem auto;
 
   }
 
@@ -30,7 +30,7 @@ body {
 
   .grid-container-home h1 {
 
-    margin: 0 21px;
+    margin: 0 1.313rem;
 
     position: relative;
 
@@ -53,8 +53,8 @@ body {
     font-family: "Merriweather";
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     letter-spacing: 0.02em;
 
     /* G2 */
@@ -68,8 +68,8 @@ body {
     font-family: "Merriweather";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     letter-spacing: 0.02em;
 
     /* G2 */
@@ -83,8 +83,8 @@ body {
     font-family: "Merriweather";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
     letter-spacing: 0.02em;
 
     /* G2 */
@@ -95,8 +95,8 @@ body {
   
   .foto-bg {
 
-    width: 217px;
-    height: 218.57px;
+    width: 13.563rem;
+    height: 13.661rem;
 
     border-radius: 4px 4px 4px 110.5px;
     transform: rotate(-45deg);
@@ -116,8 +116,8 @@ body {
   
   .foto-bg img {
 
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     transform: rotate(45deg);
   
     grid-column: 1;
@@ -139,8 +139,8 @@ body {
   
     z-index: -2;
   
-    width: 80px;
-    height: 42px;
+    width: 5rem;
+    height: 2.625rem ;
     border-radius: 420px 2px;
   
     transform: matrix(0.77, -0.65, 0.64, 0.77, 0, 0);
@@ -160,8 +160,8 @@ body {
   
     z-index: -2;
   
-    width: 60px;
-    height: 34px;
+    width: 3.75rem;
+    height: 2.125rem;
     border-radius: 2px 420px;
   
     transform: matrix(0.34, -0.94, 0.94, 0.34, 0, 0);
@@ -178,13 +178,13 @@ body {
     }
   
     .foto-bg {
-      width: 167px;
-      height: 168.57px;
+      width: 10.438rem;
+      height: 10.536px;
     }
   
     .foto-bg img {
-      width: 250px;
-      height: 250px;
+      width: 15.625rem;
+      height: 15.625rem;
     }
   }
   

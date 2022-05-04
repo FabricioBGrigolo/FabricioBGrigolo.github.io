@@ -1,12 +1,12 @@
 .formacao {
   max-width: 1000px;
-  margin: 64px auto;
+  margin: 100px auto;
 
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: repeat(5, auto);
 
-  gap: 21px;
+  gap: 1.5rem;
 }
 
 .h2-formacao {
