@@ -1,200 +1,147 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabrício B. Grigolo</title>
-    <meta name="description" content="Desenvolvedor Junior front-end">
-    <link rel="stylesheet" href="/css/0style.css">
-    <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
+    <title>theke | Contato</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/0styles.css">
 </head>
-
 
 <body>
     <header>
-        <div class="logo-bg">
-            <div class="logo">
-                <h1 class="desktop">Fabrício B<span class="ponto">.</span> Grigolo</h1>
-                <h1 class="mobile">Fabrício B<span class="ponto">.</span> G<span class="ponto">.</span>
-                </h1>
-                <h1 class="pocket"> F<span class="ponto">.</span>B<span class="ponto">.</span>G </h1>
-
-                <img src="/Icons/ROSAGRADIENT2.0.svg" alt="Rosa" class="rosa">
+        <div class="bgLogin">
+            <div class="login container">
+                <a class="text-center d-flex justify-content-end  align-items-center">
+                    <img class="corDeDestaque1" src="./imgs/person-circle.svg" width="16px" height="16px" alt="">
+                    Acessar minha conta</a>
             </div>
         </div>
-        <div class="nav-bg">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#Habilidades">Habilidades</a>
-                    </li>
-                    <li>
-                        <a href="#Formacao">Formação</a>
-                    </li>
-                    <li>
-                        <a href="#Contato">Contato</a>
-                    </li>
+        <div class="logo-nav container d-flex align-items-center align-content-center flex-wrap">
+            <div>
+                <img src="./imgs/logoBlue.svg" alt="">
+            </div>
+            <nav class="nav-principal align-self-center">
+                <ul class="d-flex  flex-wrap fw-semibold fs-6 align-items-center">
+                    <li><a href="#">Para Empresas</a></li>
+                    <li><a href="#">Para Desenvolvedores</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#" class="btn-destaque">Agendar Demonstração</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="grid-container-home" aria-label="Introdução">
-        <div class="foto-bg">
-            <img src="/Icons/person.svg" alt="Icone ilustrativo de um individuo">
+    <address class="bgContatos">
+        <div class="contatos container ">
+            <div class="d-flex flex-column  align-items-center">
+                <h1 class="fs-1 fw-semibold">Contatos</h1>
+                <p class="text-center fs-5">Clique nos botôes abaixo para entrar em contato<br> conosco ligando ou mandado whatsapp</p>
+            </div>
+            <div class="btns d-flex justify-content-center">
+                <a href="#" class="btn-principal ">Ligar para (51) 9999.9999</a>
+                <a href="#" class="btn-principal ">Chamar no WhatsApp Theke</a>
+            </div>
         </div>
+    </address>
 
-        <h1>Junior front-end</h1>
-        <h3>Aprendiz de código</h3>
-        <p class="phome1">Visando uma vaga como <br>Junior Front-end ou UX/UI Junior</p>
-        <p class="phome2">Localizado no Rio Grande do Sul</p>
-    </section>
-
-    <main class="habilidades-bg" id="Habilidades" aria-label="Habilidades">
-        <div class="hab-introduction">
-            <h2>Habilidades</h2>
-            <p>Determinação em aprender, tenho como objetivo conseguir experiência nas áreas de<br><strong>Front-end</strong>, <strong>UX/UI</strong> e </strong><strong>Back-end</strong> com motivação.</p>
+    <main class="grid container quebra">
+        <div class="form">
+            <div>
+                <h1 class="text-center fs-2">Fale conosco</h1>
+                <p class="text-center fs-6">Ficou com alguma dúvida sobre nossos serviços, tem uma crítica ou sugestão? <span class="fw-semibold">Preencha o formulário abaixo</span> que em breve retornamos para você</p>
+            </div>
+            <form id="form" action="">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="tel" placeholder="Telefone">
+                <input type="text" placeholder="Empresa">
+                <input type="text" placeholder="Cargo">
+                <input class="mensagem" type="text" placeholder="Digite aqui sua mensagem">
+                <div class="politica form-check d-flex">
+                    <input class="form-check-input" id="checkbox" type="checkbox">
+                    <label class="form-check-label" for="checkbox">Li e concordo com a <a href="#" class="text-center">política de privadade</a></label>
+                </div>
+                <button class="btn-destaque enviar">Enviar</button>
+            </form>
         </div>
-
-        <div class="container-habilidades">
-            <ul class="grid-container-habilidades">
-                <li class="hab-item-HTML">
-                    <h4>HTML</h4>
-                    <div class="barra-porcentagem">
-                        <p>0%</p>
-                        <div class="porcentagem-HTML">
-                            <p>99%</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="hab-item-CSS">
-                    <h4>CSS</h4>
-                    <div class="barra-porcentagem">
-                        <p>0%</p>
-                        <div class="porcentagem-CSS">
-                            <p>99%</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="hab-item-JS">
-                    <h4>JS</h4>
-                    <div class="barra-porcentagem">
-                        <p>0%</p>
-                        <div class="porcentagem-JS">
-                            <p>99%</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="hab-item-FIGMA">
-                    <h4>FIGMA</h4>
-                    <div class="barra-porcentagem">
-                        <p>0%</p>
-                        <div class="porcentagem-FIGMA">
-                            <p>99%</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="hab-item-LINUX">
-                    <h4>LINUX</h4>
-                    <div class="barra-porcentagem">
-                        <p>0%</p>
-                        <div class="porcentagem-LINUX">
-                            <p>99%</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="hab-item-WINDOWS">
-                    <h4>WINDOWS</h4>
-                    <div class="barra-porcentagem">
-                        <p>0%</p>
-                        <div class="porcentagem-WINDOWS">
-                            <p>99%</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="hab-item-INGLÊS">
-                    <h4>INGLÊS</h4>
-                    <div class="barra-porcentagem">
-                        <p>0%</p>
-                        <div class="porcentagem-INGLÊS">
-                            <p>99%</p>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="hab-item-CRIATIVIDADE">
-                    <h4>CRIATIVIDADE</h4>
-                    <div class="barra-porcentagem">
-                        <p>0%</p>
-                        <div class="porcentagem-CRIATIVIDADE">
-                            <p>99%</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+        <div class="detalhes">
+            <div class="map">
+                <img src="./imgs/map.svg" alt="">
+                <h2 class="fs-4">Onde estamos</h2>
+                <span class="fw-semibold">Porto Alegre/RS</span>
+                <p class="fs-6">Av.França, 1162 - Navegantes</p>
+                <p class="fs-6">CEP: 902230220</p>
+            </div>
+            <div class="dados">
+                <img src="./imgs/cadeado2.png" alt="">
+                <h2 class="fs-4">Seus dados estão protegidos conosco!</h2>
+                <p class="fs-6">Garantimos a privacidade das informações compartilhadas em conformidade com as determinações da LGPD.</p>
+            </div>
+            <div class="vagas">
+                <img src="./imgs/Pessoas.svg" alt="">
+                <h2 class="fs-4">Vagas</h2>
+                <p class="fs-6">Clique no botão abaixo para enviar seu currículo</p>
+                <a class="btn-principal vagas" href="#">Trabalhe Conosco</a>
+            </div>
         </div>
-
     </main>
 
-    <section id="Formacao" class="formacao-bg" aria-label="formação">
-        <div class="formacao">
-            <h2 class="h2-formacao">Formação</h2>
-
-            <p class="p-formacao">Atualmente estou terminando o terceiro ano do ensino médio e fazendo alguns cursos onlines, um deles é na plataforma Origamid, que é sobre HTML, CSS, JS e Figma.</p>
-
-
-            <div class="escola">
-                <span class="escola-ano origamid">Fevereiro - Presente</span>
-                <h3>Origamid</h3>
-                <span class="duracao">Curso EAD</span>
-                <p>Plataforma de cursos sobre Front-end e UX/UI Design. </p>
+    <footer class="bgFooter">
+        <div class="container footer ">
+            <div class="footerLogo">
+                <div>
+                    <img src="./imgs/logoWhite.svg" alt="logo Theke">
+                </div>
+                <p class="fs-5">Plataforma completa de gestão financeira e integração bancária com diversas instituições</p>
+                <div class="midias d-flex">
+                    <a href="#"><img src="./imgs/facebook.svg" alt=""></a>
+                <a><img src="./imgs/linkedin.svg" alt=""></a>
+                <a><img src="./imgs/instagram.svg" alt=""></a>
+                </div>
             </div>
-
-            <div class="escola">
-                <span class="escola-ano universitario">2019 - Agosto de 2022</span>
-                <h3>Universitario</h3>
-                <span class="duracao">1º ao 3º ano</span>
-                <p>Escola de ensino médio EJA</p>
-            </div>
-
-            <div class="escola">
-                <span class="escola-ano aplicacao">2009 - 2019</span>
-                <h3>Colégio de Aplicação da UFRGS</h3>
-                <span class="duracao"> 1º a 9º série</span>
-                <p>Escola de ensino fundamental e médio </p>
+            <nav class="footerNav">
+                <ul>
+                    <li class="fs-6 fw-semibold titulo">THEKE</li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Para Empresas</a></li>
+                    <li><a href="#">Para Desenvolvedores</a></li>
+                    <li><a href="#">Acesse sua conta</a></li>
+                </ul>
+                <ul>
+                    <li class="fs-6 fw-semibold titulo">SUPORTE</li>
+                    <li><a href="#">Política deivacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Dúvidas Frequentes</a></li>
+                    <li><a href="#">Aviso de Cookies</a></li>
+                </ul>
+                <address>
+                    <ul>
+                        <li class="fs-6 fw-semibold titulo">CONTATO</li>
+                        <li> <a href="tel:+555199999-9999">(51) 9.9999-9999</a></li>
+                        <li><a href="mailto:contato@theke.com.br">contato@theke.com.br</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                    </ul>
+                </address>
+            </nav>
+        </div>
+        <div class="bgCriadoPor">
+            <div class="criadoPor container d-flex justify-content-between textoCor2">
+                <div>
+                    <p>© 2022 Theke. Todos os direitos reservados</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <p>Desenvolvido com S2 por:</p>
+                    <img src="./imgs/noz2.png" width="40px" height="15px" alt="Noz logo">
+                </div>
             </div>
         </div>
-    </section>
-    <footer class="footer" id="Contato">
-        <address class="footer-container">
-            <p class="criado">Criado e desenvolvido por<br> Fabrício B. Grigolo</p>
-            <ul>
-                <li class="instagram">
-                    <a href="https://www.instagram.com/fbg.42/">@fbg.42</a>
-                </li>
-                <li class="email">
-                    <a href="mailto:fbc.grigolo@gmail.com">fbc.grigolo@gmail.com</a>
-                </li>
-                <li class="linkedin">
-                    <a href="https://www.linkedin.com/in/fbcgrigolo/">fabrício b. grigolo</a>
-                </li>
-                <li class="github">
-                    <a href="https://github.com/FBG42">FBG42</a>
-                </li>
-            </ul>
-        </address>
     </footer>
 </body>
 
