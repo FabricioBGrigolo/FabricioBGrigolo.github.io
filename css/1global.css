@@ -12,7 +12,17 @@
   margin-left: 0;
 }
 
-ol,ul,li,h1,h2,h3,h4,h5,h6,p,a {
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   margin-bottom: 0;
   margin-top: 0;
   margin-right: 0;
@@ -86,11 +96,10 @@ img {
 
 .btn-destaque {
   border-radius: 26px;
-  padding: 13px 40px;
+  padding: 15px 40px;
 
   display: block;
-  max-width: max-content;
-  box-sizing: border-box;
+  font-weight: bold;
 
   background: var(--corDeDestaque1);
   color: var(--textoCor1);
@@ -98,6 +107,11 @@ img {
 .btn-destaque.enviar {
   border: none;
   min-width: 100%;
+}
+.btn-destaque:hover {
+  transition: 0.4s;
+  background: var(--corDeDestaque2);
+  color: var(--textoCor2);
 }
 
 .btn-principal {
@@ -111,6 +125,17 @@ img {
   background: var(--corDeDestaque2);
   color: var(--textoCor2);
   font-weight: bold;
+  transition: 0.4s;
+}
+
+.btn-principal:hover {
+  background: white;
+  color: var(--textoCor1);
+}
+
+.btn-principal.vagas:hover {
+  background: var(--corDeDestaque1);
+  color: var(--textoCor1);
 }
 
 @media (max-width: 460px) {

@@ -40,11 +40,17 @@
 }
 
 .criadoPor {
+    font-size: 10px;
    padding: 20px 10px;
 }
+.criadoPor p {
+    margin-right: 5px;
+}
 
-
-
+footer  a:hover {
+    transition: 0.3s;
+    color: #172e53;
+}
 
 @media (max-width:900px) {
     .footer {
