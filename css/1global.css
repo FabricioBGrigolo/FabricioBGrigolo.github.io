@@ -93,6 +93,14 @@ img {
 
 /* -- */
 /* Utilitários */
+h1, h2, h3, a {
+  font-family: "Signika Negative", serif;
+}
+
+p, li, input {
+  font-family: "Open Sans", sans-serif;
+}
+
 
 .btn-destaque {
   border-radius: 26px;
