@@ -1,6 +1,6 @@
 # Noz teste de estágio
 Fiz este teste¹ tendo em mente que devería ser o mais proxímo do template passado no Adobe XD².
-Tentei ser o mais fiel ao design original enquanto fazia o responsivo, tendo varios pontos de quebra (media-query) e respeitando o tamanho da tela do usuário final.
+Tentei ser o mais fiel ao design original enquanto fazia o responsivo, tendo varios pontos de quebra (media-querie) e respeitando o tamanho da tela do usuário final.
 
 Tecnologias utilizadas:
 HTML5
