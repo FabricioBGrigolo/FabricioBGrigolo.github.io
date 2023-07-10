@@ -1,13 +1,14 @@
-/*** @type {import('next').NextConfig}*/
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-  assetPrefix: './',
+  reactStrictMode: true,
+
+  // Add basePath
+  basePath: '/github-pages',
+
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-};
 
-export default nextConfig;
+}
+
+module.exports = nextConfig
