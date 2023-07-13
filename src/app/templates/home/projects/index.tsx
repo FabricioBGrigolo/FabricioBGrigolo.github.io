@@ -1,24 +1,18 @@
 import React from "react";
 import "./projects.scss";
-import "../../../library/scss/globals.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Title from "@/app/components/title";
 import ProjectCard from "@/app/components/projectCard";
-import { Link } from "react-router-dom";
 
 import portfolio from "@/app/library/images/portfolio.png";
 import dealsRiders from "@/app/library/images/DealsRiders.png";
 import mahalSurfSpirit from "@/app/library/images/mahaSurfSpirit.png";
 
-export default function Home() {
+export default function ProjectsHome() {
   return (
     <section className="ctn-projects">
       <Container>
-        <Title
-          className
-          title="projects"
-          subtitle={<Link to={"/projects"}>View All ⟶</Link>}
-        />
+        <Title className title="projects" subtitle={"View All ⟶"} />
         <Row className="justify-content-center align-items-center">
           <Col>
             <ProjectCard

@@ -1,0 +1,49 @@
+@import '../../library/scss/globals.scss';
+
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+
+  h1 {
+    color: $white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    span {
+      color: $primary;
+    }
+
+    .line {
+      max-width: 700px;
+      width: 50vw;
+      margin-left: 15px;
+      height: 1px;
+      border-top: 1px solid $primary;
+    }
+  }
+
+
+
+  p {
+    a {
+      color: $grey;
+    }
+    color: $grey;
+    word-wrap: nowrap;
+  }
+}
+
+
+@media (max-width:1000px) {
+  .title {
+    .line {
+      display: none;
+    }
+  }
+}
