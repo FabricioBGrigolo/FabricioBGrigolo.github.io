@@ -32,9 +32,9 @@ export default function Header() {
                 <Nav.Link href="/about">
                   <span>/</span>about-me
                 </Nav.Link>
-                <Nav.Link href="/contacts">
+                {/* <Nav.Link href="/contacts">
                   <span>/</span>contacts
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link
                   className="mobile-link"
                   href="https://github.com/fbgrigolo"
