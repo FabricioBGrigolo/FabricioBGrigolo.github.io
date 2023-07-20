@@ -11,6 +11,7 @@ import mahalSurfSpirit from "@/app/library/images/mahaSurfSpirit.png";
 import iliteERP from "@/app/library/images/IliteERP.png";
 import iliteSite from "@/app/library/images/IliteSite.png";
 import animaisFantasticos from "@/app/library/images/AnimaisFantasticos.png";
+import starEvents from "@/app/library/images/starEvents.png";
 
 export default function ProjectsProjects() {
   return (
@@ -77,7 +78,16 @@ export default function ProjectsProjects() {
               href="https://ilite.com.br/"
             />
           </Col>
-          <Col></Col>
+          <Col>
+            <ProjectCard
+              src={starEvents}
+              techs="React Next.js Typescript"
+              projectName="StarEvents"
+              projectDescription="Startup platform for corporate room rental"
+              button="Live <~>"
+              href="https://starevents.com.br/"
+            />
+          </Col>
         </Row>
       </Container>
     </section>
